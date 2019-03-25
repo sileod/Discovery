@@ -35,7 +35,7 @@ Demo.ipynb show how to read the data
 ```
 @InProceedings{N19-2327,
   author = 	"Sileo, Damien and Van-De-Cruys, Tim  and Pradel, Camille and Muller, Philippe"
-  title = 	"Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)",
+  title = 	"Mining Discourse Markers for Unsupervised Sentence Representation Learning",
   booktitle = 	"Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)",
   year = 	"2019",
   publisher = 	"Association for Computational Linguistics",
