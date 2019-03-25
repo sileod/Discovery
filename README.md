@@ -17,7 +17,7 @@ They were extracted from the [depcc](https://www.inf.uni-hamburg.de/en/inst/ab/l
 * a hard version with 1.74 million pairs where the connective couldn't be predicted with a fasttext linear model
 
 
-#### 5 examples from the Discovery dataset:
+#### Examples from the Discovery dataset:
 s1 | s2 | y
 ---- | ---- | ----
 The  motivations  for  playing  are  vastly  different  ,  and  yet  Spin  the  Bottle  manages  to  meet  the  needs  of  all  its  players  . | It  is  a  well  crafted  game  . | truly,
@@ -29,7 +29,8 @@ Perhaps  the  Jeanneau  's  are  a  bargain  compared  to  similarly  capable  b
 # Instruction
 
 Run the `get_data.bash` script in `data`
-Demo.ipynb show how to read the data
+
+`demo.ipynb` shows an example of how to read the data and export it in a different format
 
 # Citation
 ```
