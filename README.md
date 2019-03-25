@@ -35,7 +35,7 @@ Run the `get_data.bash` script in `data`
 # Citation
 ```
 @InProceedings{N19-2327,
-  author = 	"Sileo, Damien and Van-De-Cruys, Tim  and Pradel, Camille and Muller, Philippe"
+  author = 	"Sileo, Damien and Van-De-Cruys, Tim  and Pradel, Camille and Muller, Philippe",
   title = 	"Mining Discourse Markers for Unsupervised Sentence Representation Learning",
   booktitle = 	"Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)",
   year = 	"2019",
