@@ -9,11 +9,16 @@ This is a data/code release accompaning this paper:
 
 # Contents
 
-The Discovery datasets consists adjacent sentence pairs (s1,s2) and a marker (y) that occured at the beginning of s2. They were extracted from the [depcc](https://www.inf.uni-hamburg.de/en/inst/ab/lt/resources/data/depcc.html) web corpus. In this repository, you can find:
+The Discovery datasets consists of adjacent sentence pairs (s1,s2) with a discourse marker (y) that occured at the beginning of s2.
+They were extracted from the [depcc](https://www.inf.uni-hamburg.de/en/inst/ab/lt/resources/data/depcc.html) web corpus. In this repository, you can find:
 * a list of the 174 discourse markers we used
 * a base version of our dataset with 1.74 million pairs (10k exemples per marker)
 * a big version with 3.4 million pairs
 * a hard version with 1.74 million pairs where the connective couldn't be predicted with a fasttext linear model
+
+# Instruction
+
+Run the `get_data.bash` script in `data`
 
 #### 5 examples from the Discovery dataset:
 s1 | s2 | y
@@ -24,7 +29,20 @@ Think  a  certain  vertical  market  or  knowledge  about  multilocations  '  un
 @  Sklivvz  :  but  you  are  implicitly  using  one  such  interpretation  yourself  . | One  that  tells  you  that  it  's  unphysical  to  ask  anything  except  measurements  . | namely,
 Perhaps  the  Jeanneau  's  are  a  bargain  compared  to  similarly  capable  boats  from  B  or  C.  . | Seattle  ,  the  prices  for  the  36  and  39  went  down  about  20G  ,  a  39  now  sells  for  a  bit  more  than  the  36  did  . | locally,
 
+# Citation
+```
+@InProceedings{N19-2327,
+  author = 	"Sileo, Damien and Van-De-Cruys, Tim  and Pradel, Camille and Muller, Philippe"
+  title = 	"Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)",
+  booktitle = 	"Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)",
+  year = 	"2019",
+  publisher = 	"Association for Computational Linguistics",
+  location = 	"Minneapolis, Minesotta",
+}
+```
+
+
 # Contacts
 For further information, you can contact:
 
-damien dot sileo at gmail dot com
+damien dot sileo at synapse-fr dot com
