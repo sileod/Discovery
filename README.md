@@ -16,9 +16,6 @@ They were extracted from the [depcc](https://www.inf.uni-hamburg.de/en/inst/ab/l
 * a big version with 3.4 million pairs
 * a hard version with 1.74 million pairs where the connective couldn't be predicted with a fasttext linear model
 
-# Instruction
-
-Run the `get_data.bash` script in `data`
 
 #### 5 examples from the Discovery dataset:
 s1 | s2 | y
@@ -28,6 +25,11 @@ Prefiguring  The  General  many  years  later  ,  Bernard  liked  nothing  bette
 Think  a  certain  vertical  market  or  knowledge  about  multilocations  '  unique  needs  . | Ernest  's  strength  lay  in  the  multilocation  arena  and  gives  Birch  a  new  capability  . | indeed,
 @  Sklivvz  :  but  you  are  implicitly  using  one  such  interpretation  yourself  . | One  that  tells  you  that  it  's  unphysical  to  ask  anything  except  measurements  . | namely,
 Perhaps  the  Jeanneau  's  are  a  bargain  compared  to  similarly  capable  boats  from  B  or  C.  . | Seattle  ,  the  prices  for  the  36  and  39  went  down  about  20G  ,  a  39  now  sells  for  a  bit  more  than  the  36  did  . | locally,
+
+# Instruction
+
+Run the `get_data.bash` script in `data`
+Demo.ipynb show how to read the data
 
 # Citation
 ```
