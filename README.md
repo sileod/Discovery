@@ -10,11 +10,16 @@ This is a data/code release accompaning this paper:
 # Contents
 
 The Discovery datasets consists of adjacent sentence pairs (s1,s2) with a discourse marker (y) that occured at the beginning of s2.
-They were extracted from the [depcc](https://www.inf.uni-hamburg.de/en/inst/ab/lt/resources/data/depcc.html) web corpus. In this repository, you can find:
+They were extracted from the [depcc](https://www.inf.uni-hamburg.de/en/inst/ab/lt/resources/data/depcc.html) web corpus. 
+
+Markers prediction can be used in order to train a sentence encoders. Discourse markers can be considered as noisy labels for various semantic tasks, such as entailment (y=*therefore*), subjectivity analysis (y=*personally*) or sentiment analysis (y=*sadly*), similarity (y=*similarly*), typicallity, (y=*curiously*)... 
+
+The specificity of this dataset is the diversity of the markers, since previously used data [Nie](https://arxiv.org/abs/1710.04334) used only ~10 imbalanced classes.
+In this repository, you can find:
 * a list of the 174 discourse markers we used
-* a base version of our dataset with 1.74 million pairs (10k exemples per marker)
-* a big version with 3.4 million pairs
-* a hard version with 1.74 million pairs where the connective couldn't be predicted with a fasttext linear model
+* a `Base` version of our dataset with 1.74 million pairs (10k exemples per marker)
+* a `Big` version with 3.4 million pairs
+* a `Hard` version with 1.74 million pairs where the connective couldn't be predicted with a fasttext linear model
 
 
 #### Examples from the Discovery dataset:
