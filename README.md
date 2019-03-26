@@ -16,7 +16,7 @@ Markers prediction can be used in order to train a sentence encoders. Discourse 
 
 The specificity of this dataset is the diversity of the markers, since [previously used data](https://arxiv.org/abs/1710.04334) used only ~10 imbalanced classes.
 In this repository, you can find:
-* a list of the 174 discourse markers we used
+* a list of the 174 discourse markers we obtained
 * a `Base` version of our dataset with 1.74 million pairs (10k exemples per marker)
 * a `Big` version with 3.4 million pairs
 * a `Hard` version with 1.74 million pairs where the connective couldn't be predicted with a fasttext linear model
@@ -31,7 +31,7 @@ Think  a  certain  vertical  market  or  knowledge  about  multilocations  '  un
 @  Sklivvz  :  but  you  are  implicitly  using  one  such  interpretation  yourself  . | One  that  tells  you  that  it  's  unphysical  to  ask  anything  except  measurements  . | namely,
 Perhaps  the  Jeanneau  's  are  a  bargain  compared  to  similarly  capable  boats  from  B  or  C.  . | Seattle  ,  the  prices  for  the  36  and  39  went  down  about  20G  ,  a  39  now  sells  for  a  bit  more  than  the  36  did  . | locally,
 
-# Instruction
+# Instructions
 
 Run the `bash get_data.bash` in `data`
 
@@ -51,7 +51,7 @@ Run the `bash get_data.bash` in `data`
 <div align="center"><img src="https://raw.githubusercontent.com/sileod/Discovery/master/images/discovery_markers.png" alt="magnitude" height="700"></div>
 
 
-# Contacts
+# Contact
 For further information, you can contact:
 
 damien dot sileo at synapse-fr dot com
