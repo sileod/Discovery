@@ -48,6 +48,7 @@ Run the `get_data.bash` script in `data`
   location = 	"Minneapolis, Minesotta",
 }
 ```
+<div align="center"><img src="https://raw.githubusercontent.com/sileod/Discovery/master/images/discovery_markers.png" alt="magnitude" height="700"></div>
 
 
 # Contacts
