@@ -14,7 +14,7 @@ They were extracted from the [depcc](https://www.inf.uni-hamburg.de/en/inst/ab/l
 
 Markers prediction can be used in order to train a sentence encoders. Discourse markers can be considered as noisy labels for various semantic tasks, such as entailment (y=*therefore*), subjectivity analysis (y=*personally*) or sentiment analysis (y=*sadly*), similarity (y=*similarly*), typicallity, (y=*curiously*)... 
 
-The specificity of this dataset is the diversity of the markers, since previously used data [Nie](https://arxiv.org/abs/1710.04334) used only ~10 imbalanced classes.
+The specificity of this dataset is the diversity of the markers, since [previously used data](https://arxiv.org/abs/1710.04334) used only ~10 imbalanced classes.
 In this repository, you can find:
 * a list of the 174 discourse markers we used
 * a `Base` version of our dataset with 1.74 million pairs (10k exemples per marker)
