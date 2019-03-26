@@ -33,7 +33,7 @@ Perhaps  the  Jeanneau  's  are  a  bargain  compared  to  similarly  capable  b
 
 # Instruction
 
-Run the `get_data.bash` script in `data`
+Run the `bash get_data.bash` in `data`
 
 `demo.ipynb` shows an example of how to read the data and export it in a different format
 
