@@ -49,7 +49,7 @@ Run the `bash get_data.bash` in `data`
 }
 ```
 <div align="center"><img src="https://raw.githubusercontent.com/sileod/Discovery/master/images/discovery_markers.png" alt="magnitude" height="700"></div>
-The list of markers we used. PDTB markers are black, markers discovered using our method are red
+The list of markers we used. PDTB markers are black, markers discovered in our work are red
 
 
 # Contact
