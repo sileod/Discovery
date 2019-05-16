@@ -46,7 +46,7 @@ Run the `bash get_data.bash` in `data`
   booktitle = 	"Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)",
   year = 	"2019",
   publisher = 	"Association for Computational Linguistics",
-  location = 	"Minneapolis, Minesotta",
+  location = 	"Minneapolis, Minnesotta",
 }
 ```
 <div align="center"><img src="https://raw.githubusercontent.com/sileod/Discovery/master/images/discovery_markers.png" alt="magnitude" height="700"></div>
