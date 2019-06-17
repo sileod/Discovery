@@ -5,7 +5,7 @@ This is a data/code release accompaning this paper:
 * Title: "Mining Discourse Markers for Unsupervised Sentence Representation Learning"
 * Authors: Damien Sileo, Tim Van de Cruys, Camille Pradel and Philippe Muller
 * https://arxiv.org/abs/1903.11850
-* To be presented at NAACL 2019
+* Presented at NAACL 2019
 
 
 # Contents
@@ -40,13 +40,20 @@ Run the `bash get_data.bash` in `data`
 
 # Citation
 ```
-@InProceedings{N19-2327,
-  author = 	"Sileo, Damien and Van-De-Cruys, Tim  and Pradel, Camille and Muller, Philippe",
-  title = 	"Mining Discourse Markers for Unsupervised Sentence Representation Learning",
-  booktitle = 	"Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)",
-  year = 	"2019",
-  publisher = 	"Association for Computational Linguistics",
-  location = 	"Minneapolis, Minnesota",
+@inproceedings{sileo-etal-2019-mining,
+    title = "Mining Discourse Markers for Unsupervised Sentence Representation Learning",
+    author = "Sileo, Damien  and
+      Van De Cruys, Tim  and
+      Pradel, Camille  and
+      Muller, Philippe",
+    booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, Minnesota",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/N19-1351",
+    pages = "3477--3486",
+    abstract = "Current state of the art systems in NLP heavily rely on manually annotated datasets, which are expensive to construct. Very little work adequately exploits unannotated data {--} such as discourse markers between sentences {--} mainly because of data sparseness and ineffective extraction methods. In the present work, we propose a method to automatically discover sentence pairs with relevant discourse markers, and apply it to massive amounts of data. Our resulting dataset contains 174 discourse markers with at least 10k examples each, even for rare markers such as {``}coincidentally{''} or {``}amazingly{''}. We use the resulting data as supervision for learning transferable sentence embeddings. In addition, we show that even though sentence representation learning through prediction of discourse marker yields state of the art results across different transfer tasks, it{'}s not clear that our models made use of the semantic relation between sentences, thus leaving room for further improvements.",
 }
 ```
 <div align="center"><img src="https://raw.githubusercontent.com/sileod/Discovery/master/images/discovery_markers.png" alt="magnitude" height="700"></div>
