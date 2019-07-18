@@ -35,7 +35,7 @@ Perhaps  the  Jeanneau  's  are  a  bargain  compared  to  similarly  capable  b
 # Instructions
 
 Run the `bash get_data.bash` in `data`
-
+You can also find a google drive link here: https://drive.google.com/file/d/1yOJvkrYbGED9yFrSgo7297jW_47e55g6/view?usp=sharing
 `demo.ipynb` shows an example of how to read the data and export it in a different format
 
 # Citation
