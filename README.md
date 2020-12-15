@@ -4,7 +4,7 @@ This is a data/code release accompanying  this paper:
 
 * Title: "Mining Discourse Markers for Unsupervised Sentence Representation Learning"
 * Authors: Damien Sileo, Tim Van de Cruys, Camille Pradel and Philippe Muller
-* https://arxiv.org/abs/1903.11850
+* https://www.aclweb.org/anthology/N19-1351/
 * Presented at NAACL 2019
 
 
@@ -33,7 +33,11 @@ Think  a  certain  vertical  market  or  knowledge  about  multilocations  '  un
 Perhaps  the  Jeanneau  's  are  a  bargain  compared  to  similarly  capable  boats  from  B  or  C.  . | Seattle  ,  the  prices  for  the  36  and  39  went  down  about  20G  ,  a  39  now  sells  for  a  bit  more  than  the  36  did  . | locally,
 
 # Instructions
-
+NOW AVAILABLE ON HUGGINGFACE DATASETS LIBRARY (GLUE-COMPATIBLE FORMAT): 
+```
+import datasets
+datasets.load_dataset("discovery","discovery")
+```
 Run the `bash get_data.bash` in `data`
 You can also download it directly from this link: https://drive.google.com/file/d/1yOJvkrYbGED9yFrSgo7297jW_47e55g6/view?usp=sharing
 
