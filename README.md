@@ -68,4 +68,4 @@ The list of markers we used. PDTB markers are black, markers discovered in our w
 # Contact
 For further information, you can contact:
 
-damien dot sileo at synapse-fr dot com
+damien dot sileo at gmail dot com
