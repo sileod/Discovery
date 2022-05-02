@@ -33,8 +33,8 @@ Think  a  certain  vertical  market  or  knowledge  about  multilocations  '  un
 Perhaps  the  Jeanneau  's  are  a  bargain  compared  to  similarly  capable  boats  from  B  or  C.  . | Seattle  ,  the  prices  for  the  36  and  39  went  down  about  20G  ,  a  39  now  sells  for  a  bit  more  than  the  36  did  . | locally,
 
 # Instructions
-NOW AVAILABLE ON HUGGINGFACE DATASETS LIBRARY (GLUE-COMPATIBLE FORMAT): 
-```
+Now available on Huggingface Datasets 🤗 (GLUE-COMPATIBLE FORMAT): 
+```python
 import datasets
 datasets.load_dataset("discovery","discovery")
 ```
