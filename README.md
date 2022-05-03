@@ -44,7 +44,7 @@ You can also download it directly from this link: https://drive.google.com/file/
 `demo.ipynb` shows an example of how to read the data and export it in a different format
 
 # Pretrained model
-We also provide a huggingface 🤗 pre-trained discourse marker prediction model built upon `roberta-base` .
+We also provide a huggingface 🤗 pre-trained discourse connective prediction model built upon `roberta-base` .
 https://huggingface.co/sileod/roberta-base-discourse-marker-prediction
 
 ```python
