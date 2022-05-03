@@ -33,7 +33,7 @@ Think  a  certain  vertical  market  or  knowledge  about  multilocations  '  un
 Perhaps  the  Jeanneau  's  are  a  bargain  compared  to  similarly  capable  boats  from  B  or  C.  . | Seattle  ,  the  prices  for  the  36  and  39  went  down  about  20G  ,  a  39  now  sells  for  a  bit  more  than  the  36  did  . | locally,
 
 # Instructions
-Now available on Huggingface Datasets 🤗 (GLUE-COMPATIBLE FORMAT): 
+Now available on Huggingface Datasets 🤗 (GLUE-compatible format): 
 ```python
 import datasets
 datasets.load_dataset("discovery","discovery")
@@ -42,6 +42,16 @@ Run the `bash get_data.bash` in `data`
 You can also download it directly from this link: https://drive.google.com/file/d/1yOJvkrYbGED9yFrSgo7297jW_47e55g6/view?usp=sharing
 
 `demo.ipynb` shows an example of how to read the data and export it in a different format
+
+# Pretrained model
+We also provide a huggingface 🤗 pre-trained discourse marker prediction model built upon `roberta-base` .
+https://huggingface.co/sileod/roberta-base-discourse-marker-prediction
+
+```python
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+tokenizer = AutoTokenizer.from_pretrained("sileod/roberta-base-discourse-marker-prediction")
+model = AutoModelForSequenceClassification.from_pretrained("sileod/roberta-base-discourse-marker-prediction")
+```
 
 # Citation
 ```
