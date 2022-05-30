@@ -1,12 +1,5 @@
 # Discovery : Mining Discourse Markers for Unsupervised Sentence Representation Learning
 
-This is a data/code release accompanying  this paper:
-
-* Title: "Mining Discourse Markers for Unsupervised Sentence Representation Learning"
-* Authors: Damien Sileo, Tim Van de Cruys, Camille Pradel and Philippe Muller
-* https://www.aclweb.org/anthology/N19-1351/
-* Presented at NAACL 2019
-
 
 # Contents
 
@@ -38,13 +31,10 @@ Now available on Huggingface Datasets 🤗 (GLUE-compatible format):
 import datasets
 datasets.load_dataset("discovery","discovery")
 ```
-Run the `bash get_data.bash` in `data`
-You can also download it directly from this link: https://drive.google.com/file/d/1yOJvkrYbGED9yFrSgo7297jW_47e55g6/view?usp=sharing
-
-`demo.ipynb` shows an example of how to read the data and export it in a different format
+We also provide a script to collect new datasets in `demo.ipynb`
 
 # Pretrained model
-We also provide a huggingface 🤗 pre-trained discourse connective prediction model built upon `roberta-base` .
+We also provide a huggingface 🤗 pre-trained discourse connective prediction model built upon `roberta-base`.
 https://huggingface.co/sileod/roberta-base-discourse-marker-prediction
 
 ```python
@@ -52,6 +42,11 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 tokenizer = AutoTokenizer.from_pretrained("sileod/roberta-base-discourse-marker-prediction")
 model = AutoModelForSequenceClassification.from_pretrained("sileod/roberta-base-discourse-marker-prediction")
 ```
+This model can be used as a pretrained model for discourse/pragmatics related tasks.
+
+# Discourse markers semantics:
+We also provide a semantic analysis of the markers, which can be used for zero-shot classification (e.g. sentiment analysis)
+https://github.com/synapse-developpement/DiscSense/
 
 # Citation
 ```
@@ -68,7 +63,6 @@ model = AutoModelForSequenceClassification.from_pretrained("sileod/roberta-base-
     publisher = "Association for Computational Linguistics",
     url = "https://www.aclweb.org/anthology/N19-1351",
     pages = "3477--3486",
-    abstract = "Current state of the art systems in NLP heavily rely on manually annotated datasets, which are expensive to construct. Very little work adequately exploits unannotated data {--} such as discourse markers between sentences {--} mainly because of data sparseness and ineffective extraction methods. In the present work, we propose a method to automatically discover sentence pairs with relevant discourse markers, and apply it to massive amounts of data. Our resulting dataset contains 174 discourse markers with at least 10k examples each, even for rare markers such as {``}coincidentally{''} or {``}amazingly{''}. We use the resulting data as supervision for learning transferable sentence embeddings. In addition, we show that even though sentence representation learning through prediction of discourse marker yields state of the art results across different transfer tasks, it{'}s not clear that our models made use of the semantic relation between sentences, thus leaving room for further improvements.",
 }
 ```
 <div align="center"><img src="https://raw.githubusercontent.com/sileod/Discovery/master/images/discovery_markers.png" alt="magnitude" height="700"></div>
@@ -78,4 +72,4 @@ The list of markers we used. PDTB markers are black, markers discovered in our w
 # Contact
 For further information, you can contact:
 
-damien dot sileo at gmail dot com
+damien dot sileo at kuleuven dot be
