@@ -49,7 +49,7 @@ We also provide a semantic analysis of the markers, which can be used for zero-s
 https://github.com/synapse-developpement/DiscSense/
 
 # Citation
-```
+```bibtex
 @inproceedings{sileo-etal-2019-mining,
     title = "Mining Discourse Markers for Unsupervised Sentence Representation Learning",
     author = "Sileo, Damien  and
