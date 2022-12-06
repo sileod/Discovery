@@ -72,4 +72,4 @@ The list of markers we used. PDTB markers are black, markers discovered in our w
 # Contact
 For further information, you can contact:
 
-damien.sileo@kuleuven.be
+damien.sileo@inria.fr
